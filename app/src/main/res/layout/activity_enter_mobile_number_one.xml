@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".enterMobileNumberOne">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/image_sendotp"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="90dp"
+            android:src="@drawable/sent" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/otp_verification"
+            android:layout_marginTop="30dp"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="#673AB7" />
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/we_will_send_you_one_time_otp_on_this_given_number"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="4dp"
+            android:layout_marginLeft="50dp"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="#673AB7" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/enter_mobile_number"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="15dp"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="#673AB7" />
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="60dp"
+            android:layout_marginEnd="60dp"
+            android:gravity="center"
+            android:background="@drawable/background"
+            android:orientation="horizontal">
+            
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:text="+91"
+                android:textSize="16sp"
+                android:textStyle="bold"/>
+            <EditText
+                android:id="@+id/input_mobile_number"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:background="@null"
+                android:hint="8743879188"
+                android:imeOptions="actionDone"
+                android:importantForAutofill="no"
+                android:inputType="number"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/buttongetotp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Get OTP"
+                android:layout_margin="30dp"
+                android:textStyle="bold"
+                android:background="@drawable/backgroundbutton"/>
+
+            <ProgressBar
+                android:id="@+id/progress_bar_sending_otp"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                android:visibility="gone"/>
+
+        </FrameLayout>
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1011535543735",
+    "project_id": "shadabotpverificationfirebase",
+    "storage_bucket": "shadabotpverificationfirebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1011535543735:android:f74aaa539723f58f43fc32",
+        "android_client_info": {
+          "package_name": "com.example.shadabotpverificationfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1011535543735-8omiosv02hljeem3d27fodomrnvfpl4f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.shadabotpverificationfirebase",
+            "certificate_hash": "9957e7d000d99ecb69029342186126e34bd37679"
+          }
+        },
+        {
+          "client_id": "1011535543735-v47ftpmeq2v6l0n4cg27vqpgk8op3mar.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbjaxu-wGdWNS73lDiUrfZqYAkiGpaPIk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1011535543735-v47ftpmeq2v6l0n4cg27vqpgk8op3mar.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
